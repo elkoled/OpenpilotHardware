@@ -1,4 +1,4 @@
-25233402400014039
+25215941564246403
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70784,96 +70784,26 @@ DIO_BAV21W_RHG
 2
 2
 PSA
-PinHeader_2x10_P2.54mm_Vertical_SMD_PSA
-surface-mounted straight pin header, 2x10, 2.54mm pitch, double rows
-Surface mounted pin header SMD 2x10 2.54mm double row
-0
-20
-20
-PSA
-PinHeader_2x10_P2.54mm_Vertical_SMD_PSA_small
-surface-mounted straight pin header, 2x10, 2.54mm pitch, double rows
-Surface mounted pin header SMD 2x10 2.54mm double row
-0
-20
-20
-PSA
-PinSocket_2x10_P2.54mm_Vertical_SMD_PSA
-surface-mounted straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
-Surface mounted socket strip SMD 2x10 2.54mm double row
-0
-20
-20
-PSA
-RELAY_G6K-2P-Y_DC3
+GCT_USB4115-03-C_REVB4
 
 
-0
-8
-8
-PSA
-TE_966871-1
-
-
-0
-20
-20
-PSA
-TE_966871-_C
-
-
-0
-20
-20
-PSA
-TE_2041126-1
-
-
-0
-10
-10
-PSA
-TO-277
-
-
-0
-3
-3
-PSA
-TYPE-C-31-M-04
-USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
-USB C Type-C Receptacle Hybrid
 0
 28
 28
 PSA
-TYPE-C-31-M-12
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
+SSW-110-22-F-D-VS-K-TR
+
 
 0
 20
-17
+20
 PSA
-TYPE-C-31-M-14
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
+TSM-110-03-X-DV
+
 
 0
 20
-17
-PSA
-TYPE-C-31-M-17
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
-
-0
-10
-7
-PSA
-TYPE-C-31-M-17_handsolder
-Korean Hroparts Elec, Power only USB connector supporting up to 3A, easier to solder w/0.3mm pad separation
-
-0
-10
-7
+20
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
