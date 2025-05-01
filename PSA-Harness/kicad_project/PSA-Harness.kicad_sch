@@ -6262,7 +6262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:PinHeader_2x10_P2.54mm_Vertical_SMD_PSA_small"
+		(property "Footprint" "PSA:SSW-110-22-F-D-VS-K-TR"
 			(at 116.84 92.71 0)
 			(effects
 				(font
@@ -6651,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:PinSocket_2x10_P2.54mm_Vertical_SMD_PSA"
+		(property "Footprint" "PSA:TSM-110-03-X-DV"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -6780,7 +6780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PSA:TYPE-C-31-M-04"
+		(property "Footprint" "PSA:GCT_USB4115-03-C_REVB4"
 			(at 246.38 82.55 0)
 			(effects
 				(font
@@ -7049,7 +7049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:PinHeader_2x10_P2.54mm_Vertical_SMD_PSA_small"
+		(property "Footprint" "PSA:SSW-110-22-F-D-VS-K-TR"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -7242,7 +7242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:PinHeader_2x10_P2.54mm_Vertical_SMD_PSA_small"
+		(property "Footprint" "PSA:SSW-110-22-F-D-VS-K-TR"
 			(at 55.88 92.71 0)
 			(effects
 				(font
@@ -7369,7 +7369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:PinSocket_2x10_P2.54mm_Vertical_SMD_PSA"
+		(property "Footprint" "PSA:TSM-110-03-X-DV"
 			(at 55.88 50.8 0)
 			(effects
 				(font
@@ -7562,7 +7562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:PinSocket_2x10_P2.54mm_Vertical_SMD_PSA"
+		(property "Footprint" "PSA:TSM-110-03-X-DV"
 			(at 116.84 50.8 0)
 			(effects
 				(font
