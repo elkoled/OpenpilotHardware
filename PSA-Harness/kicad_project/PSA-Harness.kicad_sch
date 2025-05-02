@@ -10010,7 +10010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "PSA:ESW-110-44-F-D"
 			(at 109.22 130.81 0)
 			(effects
 				(font
@@ -10551,7 +10551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "PSA:10129381-920003BLF"
 			(at 78.74 40.64 0)
 			(effects
 				(font
@@ -10949,7 +10949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "PSA:ESW-110-44-F-D"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -11294,7 +11294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "PSA:ESW-110-44-F-D"
 			(at 48.26 130.81 0)
 			(effects
 				(font
@@ -11421,7 +11421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "PSA:10129381-920003BLF"
 			(at 48.26 40.64 0)
 			(effects
 				(font
@@ -11614,7 +11614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "PSA:10129381-920003BLF"
 			(at 109.22 40.64 0)
 			(effects
 				(font

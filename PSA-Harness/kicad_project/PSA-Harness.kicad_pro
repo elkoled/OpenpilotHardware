@@ -542,7 +542,7 @@
       "plot": "/home/daniel/Repositories/OpenpilotHardware/PSA-Harness/gerber/",
       "pos_files": "/home/daniel/Repositories/OpenpilotHardware/PSA-Harness/gerber/",
       "specctra_dsn": "../../J533DreamPCB.dsn",
-      "step": "../../../Downloads/J533DreamPCB.step",
+      "step": "../../../PSA-Harness.step",
       "svg": "",
       "vrml": ""
     },
