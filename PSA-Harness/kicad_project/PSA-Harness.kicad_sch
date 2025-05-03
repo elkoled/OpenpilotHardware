@@ -488,7 +488,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "BAS40TW-AU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3736,7 +3736,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "BAS40TW-AU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10918,25 +10918,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f290078-3797-4a84-bc77-9afbe4477d9a")
 		(property "Reference" "D1"
-			(at 205.74 132.0098 0)
+			(at 205.486 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 205.74 133.9149 0)
+		(property "Value" "BAS40TW-AU"
+			(at 210.566 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 198.12 137.16 0)
 			(effects
 				(font
@@ -12508,25 +12507,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "71e5f145-e82e-4a83-8b40-6ebf84541a8e")
 		(property "Reference" "D2"
-			(at 254 132.0098 0)
+			(at 254 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 254 133.9149 0)
+		(property "Value" "BAS40TW-AU"
+			(at 258.826 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 246.38 137.16 0)
 			(effects
 				(font
@@ -14409,7 +14407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 154.94 137.16 0)
 			(effects
 				(font
