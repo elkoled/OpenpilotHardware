@@ -49,7 +49,6 @@
 			)
 		)
 	)
-	(attr smd)
 	(fp_line
 		(start -4.47 -1.9)
 		(end -3.35 -1.9)
@@ -82,7 +81,7 @@
 	)
 	(fp_line
 		(start 3.35 -1.9)
-		(end 4.47 -1.9)
+		(end 4.6 -1.9)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -92,7 +91,7 @@
 	)
 	(fp_line
 		(start 3.35 1.9)
-		(end 4.47 1.9)
+		(end 4.6 1.9)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -101,8 +100,8 @@
 		(uuid "c9b57cc3-0112-4afa-bdb9-41d74830e261")
 	)
 	(fp_line
-		(start 4.47 1.9)
-		(end 4.47 -1.9)
+		(start 4.6 1.9)
+		(end 4.6 -1.9)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -327,7 +326,7 @@
 	)
 	(fp_line
 		(start 0.6 -1.9)
-		(end 4.47 -1.9)
+		(end 4.6 -1.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -337,7 +336,7 @@
 	)
 	(fp_line
 		(start 0.6 1.9)
-		(end 4.47 1.9)
+		(end 4.6 1.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -356,8 +355,8 @@
 		(uuid "9f70f827-d26b-4523-89a7-20e84baeb164")
 	)
 	(fp_line
-		(start 4.47 1.9)
-		(end 4.47 -1.9)
+		(start 4.6 1.9)
+		(end 4.6 -1.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -567,7 +566,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "458db43d-9c29-4bdc-b21a-6de58c8e8e1f")
 	)
-	(pad "S2" thru_hole circle
+	(pad "S1" thru_hole circle
 		(at -2.4 2.15)
 		(size 1.1 1.1)
 		(drill 0.7)
@@ -576,16 +575,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "683566f2-6317-4f4e-9b5f-343600ca1412")
 	)
-	(pad "S3" thru_hole circle
-		(at 2.4 2.15)
-		(size 1.1 1.1)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "62516bb8-be89-40a2-b53a-a586280060cd")
-	)
-	(pad "S4" thru_hole circle
+	(pad "S1" thru_hole circle
 		(at 2.4 -2.15)
 		(size 1.1 1.1)
 		(drill 0.7)
@@ -593,6 +583,15 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "67fa7fb2-071d-49b1-9892-a364bb12e906")
+	)
+	(pad "S1" thru_hole circle
+		(at 2.4 2.15)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "62516bb8-be89-40a2-b53a-a586280060cd")
 	)
 	(zone
 		(net 0)
