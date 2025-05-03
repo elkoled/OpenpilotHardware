@@ -537,7 +537,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/daniel/Repositories/OpenpilotHardware/PSA-Harness/gerber/",
+      "plot": "../PCB1/",
       "pos_files": "/home/daniel/Repositories/OpenpilotHardware/PSA-Harness/gerber/",
       "specctra_dsn": "../../J533DreamPCB.dsn",
       "step": "../../../PSA-Harness.step",
