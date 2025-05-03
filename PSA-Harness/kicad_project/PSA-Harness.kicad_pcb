@@ -2478,7 +2478,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "6e83f1bf-7baf-42d4-9dba-cb046f1597e6")
-		(at 98.806 94.996 -90)
+		(at 98.806 95.946 -90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -3158,7 +3158,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "9f90485f-595a-434e-b7a7-76449120f37c")
-		(at 115.316 95.25 -90)
+		(at 115.316 96.2 -90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -3359,7 +3359,7 @@
 	(footprint "PSA:GCT_USB4115-03-C_REVB4"
 		(layer "F.Cu")
 		(uuid "a3e61ad9-fddd-4d1d-afae-999d3d05c1f5")
-		(at 93.218 95.818 90)
+		(at 92.4 98.5 90)
 		(property "Reference" "J7"
 			(at -0.635 -4.445 90)
 			(layer "F.SilkS")
@@ -4058,7 +4058,7 @@
 			)
 			(polygon
 				(pts
-					(xy 91.418 96.618) (xy 91.418 95.018) (xy 90.718 95.018) (xy 90.718 96.618)
+					(xy 90.6 99.3) (xy 90.6 97.7) (xy 89.9 97.7) (xy 89.9 99.3)
 				)
 			)
 		)
@@ -4090,7 +4090,7 @@
 			)
 			(polygon
 				(pts
-					(xy 95.018 96.618) (xy 95.018 95.018) (xy 95.718 95.018) (xy 95.718 96.618)
+					(xy 94.2 99.3) (xy 94.2 97.7) (xy 94.9 97.7) (xy 94.9 99.3)
 				)
 			)
 		)
@@ -4122,7 +4122,7 @@
 			)
 			(polygon
 				(pts
-					(xy 91.418 96.618) (xy 91.418 95.018) (xy 90.718 95.018) (xy 90.718 96.618)
+					(xy 90.6 99.3) (xy 90.6 97.7) (xy 89.9 97.7) (xy 89.9 99.3)
 				)
 			)
 		)
@@ -4154,7 +4154,7 @@
 			)
 			(polygon
 				(pts
-					(xy 95.018 96.618) (xy 95.018 95.018) (xy 95.718 95.018) (xy 95.718 96.618)
+					(xy 94.2 99.3) (xy 94.2 97.7) (xy 94.9 97.7) (xy 94.9 99.3)
 				)
 			)
 		)
@@ -4174,7 +4174,7 @@
 	(footprint "Relay_SMD:Relay_DPDT_Omron_G6K-2G-Y"
 		(layer "F.Cu")
 		(uuid "a86d0766-ef1d-4053-b7b4-a09e609d357f")
-		(at 108.458 94.996 90)
+		(at 108.458 95.946 90)
 		(descr "Omron G6K-2G-Y relay package http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf")
 		(tags "Omron G6K-2G-Y relay")
 		(property "Reference" "K1"
@@ -4596,7 +4596,7 @@
 	(footprint "PSA:DIO_BAV21W_RHG"
 		(layer "F.Cu")
 		(uuid "ad870917-f61f-4ea8-b19b-484f56a3adf8")
-		(at 101.6 94.996 90)
+		(at 101.6 95.946 90)
 		(property "Reference" "D1"
 			(at 0 -2 90)
 			(layer "F.SilkS")
@@ -7380,8 +7380,8 @@
 		)
 	)
 	(gr_line
-		(start 116.84 90.551)
-		(end 116.84 144.145)
+		(start 116.84 92.6)
+		(end 116.84 143.145)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7389,9 +7389,31 @@
 		(layer "Edge.Cuts")
 		(uuid "00e4f3bb-d7ed-4242-9c32-aa7866ffd432")
 	)
+	(gr_arc
+		(start 145.84 100.33)
+		(mid 146.547107 100.622893)
+		(end 146.84 101.33)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f0bcd83-2748-4d13-b074-a371a0ddef46")
+	)
+	(gr_arc
+		(start 116.84 143.145)
+		(mid 116.547107 143.852107)
+		(end 115.84 144.145)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f1fe1d4-b4a0-46e9-b433-0a9c2ca224d6")
+	)
 	(gr_line
-		(start 124.488 144.145)
-		(end 124.488 100.33)
+		(start 124.488 143.145)
+		(end 124.488 101.33)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7399,9 +7421,20 @@
 		(layer "Edge.Cuts")
 		(uuid "24931d3a-6a58-4d4d-976b-6a907d0af118")
 	)
+	(gr_arc
+		(start 115.84 91.6)
+		(mid 116.547107 91.892893)
+		(end 116.84 92.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "252fb42b-39ee-4492-abe6-7658c07bd609")
+	)
 	(gr_line
-		(start 146.84 100.33)
-		(end 146.84 144.145)
+		(start 146.84 101.33)
+		(end 146.84 143.145)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7410,8 +7443,8 @@
 		(uuid "2c704766-c195-415d-bc5f-4a949aa5b6a8")
 	)
 	(gr_line
-		(start 116.84 144.145)
-		(end 94.488 144.145)
+		(start 115.84 144.145)
+		(end 95.488 144.145)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7420,8 +7453,8 @@
 		(uuid "3037648b-42d9-48cf-bb5c-d05df0bc0020")
 	)
 	(gr_line
-		(start 89.408 90.551)
-		(end 116.84 90.551)
+		(start 89.5 91.6)
+		(end 115.84 91.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7429,9 +7462,31 @@
 		(layer "Edge.Cuts")
 		(uuid "31b3fe0d-624d-455d-b20f-802653b4f023")
 	)
+	(gr_arc
+		(start 88.5 92.6)
+		(mid 88.792893 91.892893)
+		(end 89.5 91.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4138634d-0e78-4e86-99a8-98d6f9c4f9a4")
+	)
+	(gr_arc
+		(start 124.488 101.33)
+		(mid 124.780893 100.622893)
+		(end 125.488 100.33)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "41a61722-3436-49d2-b0de-7cb2c29b918d")
+	)
 	(gr_line
-		(start 94.488 105.664)
-		(end 89.408 105.664)
+		(start 93.488 105.664)
+		(end 89.5 105.664)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7439,9 +7494,20 @@
 		(layer "Edge.Cuts")
 		(uuid "5272a84b-54b7-484c-b494-e56bc4757fdb")
 	)
+	(gr_arc
+		(start 125.488 144.145)
+		(mid 124.780893 143.852107)
+		(end 124.488 143.145)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "576effbd-e38c-46ff-bc3d-0124e12be2f9")
+	)
 	(gr_line
-		(start 124.488 100.33)
-		(end 146.84 100.33)
+		(start 125.488 100.33)
+		(end 145.84 100.33)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7450,8 +7516,8 @@
 		(uuid "6710e97a-0b22-4a38-9327-d3f479d4d0ef")
 	)
 	(gr_line
-		(start 146.84 144.145)
-		(end 124.488 144.145)
+		(start 145.84 144.145)
+		(end 125.488 144.145)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7459,9 +7525,31 @@
 		(layer "Edge.Cuts")
 		(uuid "79f7e9d2-4cc5-4034-8335-1a4a9feceddf")
 	)
+	(gr_arc
+		(start 146.84 143.145)
+		(mid 146.547107 143.852107)
+		(end 145.84 144.145)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8cdb57e3-0721-48f7-a739-14f287c8bc34")
+	)
+	(gr_arc
+		(start 89.5 105.664)
+		(mid 88.792893 105.371107)
+		(end 88.5 104.664)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "99beddda-d8aa-49a9-a2fb-7f9ade8a8681")
+	)
 	(gr_line
-		(start 94.488 144.145)
-		(end 94.488 105.664)
+		(start 94.488 143.145)
+		(end 94.488 106.664)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7470,14 +7558,36 @@
 		(uuid "bb06f156-31ff-462a-b771-72e1c27f48db")
 	)
 	(gr_line
-		(start 89.408 105.664)
-		(end 89.408 90.551)
+		(start 88.5 104.664)
+		(end 88.5 92.6)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "ca524b0f-f4e8-439a-a8be-c86842193f32")
+	)
+	(gr_arc
+		(start 93.488 105.664)
+		(mid 94.195107 105.956893)
+		(end 94.488 106.664)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d6088a9b-512b-46fc-9384-2d31870ea271")
+	)
+	(gr_arc
+		(start 95.488 144.145)
+		(mid 94.780893 143.852107)
+		(end 94.488 143.145)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f68d66bd-9842-4994-95e1-1736728f19da")
 	)
 	(gr_line
 		(start 108 100)
