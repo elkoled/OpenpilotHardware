@@ -1,4 +1,4 @@
-25219434398171956
+25235014259943843
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70818,6 +70818,13 @@ TSM-110-03-X-DV
 0
 20
 20
+PSA
+TYPE-C-31-M-04
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+28
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
