@@ -1,4 +1,4 @@
-25235015000811843
+25236761616844078
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70778,6 +70778,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 PSA
 10129381-920003BLF
+
+
+0
+20
+20
+PSA
+10129381-920003BLF_BACK
 
 
 0

@@ -7589,7 +7589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:10129381-920003BLF"
+		(property "Footprint" "PSA:10129381-920003BLF_BACK"
 			(at 109.22 82.55 0)
 			(effects
 				(font
@@ -8457,7 +8457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:10129381-920003BLF"
+		(property "Footprint" "PSA:10129381-920003BLF_BACK"
 			(at 78.74 82.55 0)
 			(effects
 				(font
@@ -8889,7 +8889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:10129381-920003BLF"
+		(property "Footprint" "PSA:10129381-920003BLF_BACK"
 			(at 48.26 82.55 0)
 			(effects
 				(font
