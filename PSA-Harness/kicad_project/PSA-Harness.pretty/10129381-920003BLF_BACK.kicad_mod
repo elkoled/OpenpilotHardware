@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at -10.525 -4.3 0)
 		(layer "F.SilkS")
-		(uuid "3e6d8d1d-1d16-44c2-83ba-56b79e382fbc")
+		(uuid "a634fd4f-e70f-4820-8339-ae84a9cd9c4d")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "AMPHENOL_10129381-920003BLF"
 		(at 3.445 4.28 0)
 		(layer "F.Fab")
-		(uuid "5d34e872-0859-4f6d-a9df-276a5a36510c")
+		(uuid "77a3b413-d779-4259-bce6-5e832c35a129")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a3b70339-4a79-4972-aef8-06a3d1ea5496")
+		(uuid "0546198a-a8e2-4c1d-97bd-19d5c3c74b55")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "93f438ff-f03c-4e47-87e6-48c7926a691d")
+		(uuid "cb27b993-9b63-4700-af46-73b51ad2ad87")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -91,8 +91,8 @@
 		(uuid "f1bc7fc8-61fb-4bae-b9f2-286a78c90d60")
 	)
 	(fp_circle
-		(center -13.35 1.27)
-		(end -13.25 1.27)
+		(center -13.35 -1.2)
+		(end -13.25 -1.2)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -212,8 +212,8 @@
 		(uuid "32f9f9bf-dcca-4eed-a399-83b430936312")
 	)
 	(fp_circle
-		(center -13.35 1.27)
-		(end -13.25 1.27)
+		(center -13.35 -1.2)
+		(end -13.25 -1.2)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -222,14 +222,14 @@
 		(layer "F.Fab")
 		(uuid "d43d1697-39ef-4bee-bbff-2a1df9316cf0")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at -11.43 -1.27)
 		(size 1.53 1.53)
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "1424427a-ed9d-4f56-91b4-40fe6a7198a9")
+		(uuid "31967499-6e4b-41cc-8565-e9c2bfaa2471")
 	)
 	(pad "2" thru_hole circle
 		(at -8.89 -1.27)
@@ -312,14 +312,14 @@
 		(solder_mask_margin 0.102)
 		(uuid "c3d14e36-5f1e-4501-906d-885fa494d691")
 	)
-	(pad "11" thru_hole rect
+	(pad "11" thru_hole circle
 		(at -11.43 1.27)
 		(size 1.53 1.53)
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "31967499-6e4b-41cc-8565-e9c2bfaa2471")
+		(uuid "1424427a-ed9d-4f56-91b4-40fe6a7198a9")
 	)
 	(pad "12" thru_hole circle
 		(at -8.89 1.27)

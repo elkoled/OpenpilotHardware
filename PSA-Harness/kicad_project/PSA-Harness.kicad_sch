@@ -8109,7 +8109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PSA:TYPE-C-31-M-04"
+		(property "Footprint" "PSA:GCT_USB4056-03-A_REVA2"
 			(at 247.65 69.85 0)
 			(effects
 				(font
