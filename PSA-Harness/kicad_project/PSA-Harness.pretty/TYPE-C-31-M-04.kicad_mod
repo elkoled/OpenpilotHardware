@@ -408,7 +408,7 @@
 		(uuid "6a3ce70d-4650-4f50-95f8-444c5f496b37")
 	)
 	(embedded_fonts no)
-	(model "/home/daniel/Data/Repositories/OpenpilotHardware/PSA-Harness/kicad_project/PSA-Harness.3d/TYPE-C-31-M-04.step"
+	(model "${KIPRJMOD}/PSA-Harness.3d/TYPE-C-31-M-04.step"
 		(offset
 			(xyz 0 4.35 0)
 		)
