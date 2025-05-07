@@ -720,7 +720,7 @@
 			)
 		)
 		(property "Value" "SMF16A"
-			(at 0 2.1 90)
+			(at 0.25 -1.99 90)
 			(layer "F.Fab")
 			(uuid "8ef92082-b711-45a6-a09e-61e5c72b7a24")
 			(effects
@@ -942,7 +942,7 @@
 			(uuid "da5f87c7-1367-4301-84d0-3f29777a44d1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at 3.42 -0.06 90)
 			(layer "F.Fab")
 			(uuid "b1db9eea-dcf5-4157-8e1f-c81bf3c05c8e")
 			(effects
@@ -1484,7 +1484,7 @@
 			)
 		)
 		(property "Value" "BAS40TW-AU"
-			(at 0 2 270)
+			(at 0.17 -2.22 270)
 			(layer "F.Fab")
 			(uuid "636787c9-dda1-484c-a03f-518feac71854")
 			(effects
@@ -2223,7 +2223,7 @@
 			)
 		)
 		(property "Value" "BAS40TW-AU"
-			(at 0 2 90)
+			(at -0.175 -2.37 90)
 			(layer "F.Fab")
 			(uuid "e094ec6a-b3f3-4652-9932-f28742e32c41")
 			(effects
@@ -2990,7 +2990,7 @@
 			)
 		)
 		(property "Value" "to_car_3"
-			(at 3.445 -4.28 0)
+			(at 0.142 -0.006 0)
 			(layer "B.Fab")
 			(uuid "f9f80b57-c7d3-446e-b81c-976df47d3f0c")
 			(effects
@@ -3883,7 +3883,7 @@
 			)
 		)
 		(property "Value" "to_car_1"
-			(at 3.445 -4.28 90)
+			(at -0.226 -0.102 90)
 			(layer "B.Fab")
 			(uuid "9c1a4e39-67ef-4650-b630-74ac85fc6260")
 			(effects
@@ -5051,7 +5051,7 @@
 			)
 		)
 		(property "Value" "to_car_2"
-			(at 3.445 -4.28 90)
+			(at 0.064 -0.172 90)
 			(layer "B.Fab")
 			(uuid "5784799a-07c9-4b82-b359-cb15e8b00605")
 			(effects
