@@ -10803,7 +10803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:SAMTEC_TW-10-X-X-T-X-X"
+		(property "Footprint" "PSA:SAMTEC_TW-10-03-T-T-320-100"
 			(at 63.5 80.01 0)
 			(effects
 				(font
@@ -11078,7 +11078,7 @@
 				)
 			)
 		)
-		(property "Value" "BAS40TW-AU"
+		(property "Value" "BAS40SDW"
 			(at 210.566 134.112 0)
 			(effects
 				(font
@@ -11431,7 +11431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:ESW-110-44-F-D"
+		(property "Footprint" "PSA:SAMTEC_ESW-110-44-F-D"
 			(at 109.22 130.81 0)
 			(effects
 				(font
@@ -11756,7 +11756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:SAMTEC_TW-10-X-X-T-X-X"
+		(property "Footprint" "PSA:SAMTEC_TW-10-03-T-T-320-100"
 			(at 93.98 170.18 0)
 			(effects
 				(font
@@ -11973,7 +11973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:10129381-920003BLF"
+		(property "Footprint" "PSA:Amphenol_10129381-920003BLF"
 			(at 78.74 40.64 0)
 			(effects
 				(font
@@ -12238,7 +12238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:SAMTEC_TW-10-X-X-T-X-X"
+		(property "Footprint" "PSA:SAMTEC_TW-10-03-T-T-320-100"
 			(at 93.98 80.01 0)
 			(effects
 				(font
@@ -12448,7 +12448,7 @@
 				)
 			)
 		)
-		(property "Value" "BAS40TW-AU"
+		(property "Value" "BAS40SDW"
 			(at 258.826 133.858 0)
 			(effects
 				(font
@@ -12601,7 +12601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:ESW-110-44-F-D"
+		(property "Footprint" "PSA:SAMTEC_ESW-110-44-F-D"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -12852,7 +12852,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEUA"
+		(property "Value" "DG419LEDY-T1-GE4"
 			(at 187.96 62.23 0)
 			(effects
 				(font
@@ -12939,7 +12939,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEUA"
+		(property "Value" "DG419LEDY-T1-GE4"
 			(at 187.96 20.32 0)
 			(effects
 				(font
@@ -13034,7 +13034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:SAMTEC_TW-10-X-X-T-X-X"
+		(property "Footprint" "PSA:SAMTEC_TW-10-03-T-T-320-100"
 			(at 63.5 170.18 0)
 			(effects
 				(font
@@ -13250,7 +13250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:ESW-110-44-F-D"
+		(property "Footprint" "PSA:SAMTEC_ESW-110-44-F-D"
 			(at 48.26 130.81 0)
 			(effects
 				(font
@@ -13435,7 +13435,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEUA"
+		(property "Value" "DG419LEDY-T1-GE4"
 			(at 187.96 82.55 90)
 			(effects
 				(font
@@ -13530,7 +13530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:10129381-920003BLF"
+		(property "Footprint" "PSA:Amphenol_10129381-920003BLF"
 			(at 48.26 40.64 0)
 			(effects
 				(font
@@ -13789,7 +13789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA:10129381-920003BLF"
+		(property "Footprint" "PSA:Amphenol_10129381-920003BLF"
 			(at 109.22 40.64 0)
 			(effects
 				(font
@@ -14241,7 +14241,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEUA"
+		(property "Value" "DG419LEDY-T1-GE4"
 			(at 187.96 40.64 90)
 			(effects
 				(font
