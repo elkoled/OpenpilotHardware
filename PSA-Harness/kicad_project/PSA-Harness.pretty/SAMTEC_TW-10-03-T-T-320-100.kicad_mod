@@ -1,4 +1,4 @@
-(footprint "SAMTEC_TW-10-X-X-T-X-X"
+(footprint "SAMTEC_TW-10-03-T-T-320-100"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SAMTEC_TW-10-X-X-T-X-X"
+	(property "Value" "SAMTEC_TW-10-03-T-T-320-100"
 		(at 11.97 2.86 0)
 		(layer "F.Fab")
 		(uuid "6d4ec478-2c47-4088-934d-1e6587bcc940")
