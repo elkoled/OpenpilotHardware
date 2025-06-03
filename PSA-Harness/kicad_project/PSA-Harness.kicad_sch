@@ -12852,7 +12852,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEDY-T1-GE4"
+		(property "Value" "DG419LEDQ-T1-GE3"
 			(at 187.96 62.23 0)
 			(effects
 				(font
@@ -12939,7 +12939,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEDY-T1-GE4"
+		(property "Value" "DG419LEDQ-T1-GE3"
 			(at 187.96 20.32 0)
 			(effects
 				(font
@@ -13435,7 +13435,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEDY-T1-GE4"
+		(property "Value" "DG419LEDQ-T1-GE3"
 			(at 187.96 82.55 90)
 			(effects
 				(font
@@ -14241,7 +14241,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEDY-T1-GE4"
+		(property "Value" "DG419LEDQ-T1-GE3"
 			(at 187.96 40.64 90)
 			(effects
 				(font

@@ -7251,7 +7251,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "DG419LEDY-T1-GE4"
+		(property "Value" "DG419LEDQ-T1-GE3"
 			(at 0 -2.45 90)
 			(layer "B.Fab")
 			(uuid "af141388-addf-4250-b5a7-7c8d83d908d4")
@@ -8255,7 +8255,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "DG419LEDY-T1-GE4"
+		(property "Value" "DG419LEDQ-T1-GE3"
 			(at 0 -2.45 90)
 			(layer "B.Fab")
 			(uuid "92430a9f-c812-403a-8ab4-10527795e1ac")
