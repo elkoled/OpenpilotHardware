@@ -237,8 +237,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle"
-			(at -0.6 -3.835 270)
+		(property "Value" "TYPE-C-31-M-07"
+			(at -0.6 -3.835 90)
 			(layer "F.Fab")
 			(uuid "11ecc072-b6e0-4b41-8964-c8d5cbb590d7")
 			(effects
@@ -3439,7 +3439,7 @@
 		(descr "SOT-363, SC-70-6, SC-88")
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "D1"
-			(at 0 2.03 270)
+			(at 0 2.03 90)
 			(layer "F.SilkS")
 			(uuid "2c2e04c6-6ab4-412b-a26d-f485cb8c65bc")
 			(effects
@@ -3449,8 +3449,8 @@
 				)
 			)
 		)
-		(property "Value" "BAS40TW-AU"
-			(at 0 2 270)
+		(property "Value" "BAS40SDW-AU_R1_000A1"
+			(at 0 2 90)
 			(layer "F.Fab")
 			(uuid "ba826e46-ac7d-4c2f-991c-8a6bcd563e7f")
 			(effects
@@ -3613,7 +3613,7 @@
 			(uuid "6e403d88-fdc1-4677-86da-d386b1e12a6a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a5943b7e-f76a-4fe5-8525-a04f39271d03")
 			(effects
@@ -4188,7 +4188,7 @@
 				)
 			)
 		)
-		(property "Value" "BAS40TW-AU"
+		(property "Value" "BAS40SDW-AU_R1_000A1"
 			(at 0 2 90)
 			(layer "F.Fab")
 			(uuid "777d77d9-60b2-43f2-84c8-1f161e6b068d")
