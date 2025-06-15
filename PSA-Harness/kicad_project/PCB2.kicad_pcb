@@ -6682,6 +6682,26 @@
 		(layer "F.SilkS")
 		(uuid "6f2db102-7dbd-4009-bccd-dc878f047282")
 	)
+	(gr_line
+		(start 108.4 106.125)
+		(end 107.6 107)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "822af1eb-d062-4c19-b849-7544a3a9c6a1")
+	)
+	(gr_line
+		(start 109.2 107)
+		(end 108.4 106.125)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83eadf9e-fabf-4ba5-b9bf-da4f8701e428")
+	)
 	(gr_poly
 		(pts
 			(xy 103.312633 96.505696) (xy 103.319315 96.505969) (xy 103.325825 96.506416) (xy 103.332166 96.50703)
@@ -6940,6 +6960,16 @@
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a307f3f1-61ff-4768-bac8-43f16dc65f10")
+	)
+	(gr_line
+		(start 108.4 108.2)
+		(end 108.4 106.125)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5ecdd57-ebe9-4de4-9bbd-de2ecd966f45")
 	)
 	(gr_poly
 		(pts
@@ -7381,6 +7411,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fdaedfec-a278-404f-8fa7-116999f0900a")
+	)
+	(gr_text "up"
+		(at 103.2 108 0)
+		(layer "F.SilkS")
+		(uuid "31d7bc3a-f45b-49e0-8a5e-1c310af2d81e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "PCB1"
 		(at 126.2 87 0)
