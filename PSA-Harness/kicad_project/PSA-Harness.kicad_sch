@@ -12852,7 +12852,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEDQ-T1-GE3"
+		(property "Value" "DG419LEDQ-T1-GE4"
 			(at 187.96 62.23 0)
 			(effects
 				(font
@@ -12860,7 +12860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 191.135 82.55 0)
 			(effects
 				(font
@@ -12939,7 +12939,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEDQ-T1-GE3"
+		(property "Value" "DG419LEDQ-T1-GE4"
 			(at 187.96 20.32 0)
 			(effects
 				(font
@@ -12947,7 +12947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 191.135 40.64 0)
 			(effects
 				(font
@@ -13435,7 +13435,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEDQ-T1-GE3"
+		(property "Value" "DG419LEDQ-T1-GE4"
 			(at 187.96 82.55 90)
 			(effects
 				(font
@@ -13443,7 +13443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 201.93 88.265 0)
 			(effects
 				(font
@@ -14241,7 +14241,7 @@
 				)
 			)
 		)
-		(property "Value" "DG419LEDQ-T1-GE3"
+		(property "Value" "DG419LEDQ-T1-GE4"
 			(at 187.96 40.64 90)
 			(effects
 				(font
@@ -14249,7 +14249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 201.93 46.355 0)
 			(effects
 				(font
