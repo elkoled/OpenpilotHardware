@@ -87,7 +87,7 @@
 							)
 						)
 					)
-					(number "5V"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -105,7 +105,7 @@
 							)
 						)
 					)
-					(number "GND"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -123,7 +123,7 @@
 							)
 						)
 					)
-					(number "3V3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -141,7 +141,7 @@
 							)
 						)
 					)
-					(number "RX"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -159,7 +159,7 @@
 							)
 						)
 					)
-					(number "TX"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -177,7 +177,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -195,7 +195,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -213,7 +213,7 @@
 							)
 						)
 					)
-					(number "0"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -231,7 +231,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -249,7 +249,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -267,7 +267,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -285,7 +285,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -303,7 +303,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -321,7 +321,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -339,7 +339,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -357,7 +357,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13101,7 +13101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 313.182 95.25 90)
 			(effects
 				(font
@@ -13234,7 +13234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 38.1 95.25 0)
 			(effects
 				(font
@@ -13422,7 +13422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" ""
 			(at 351.4852 99.06 0)
 			(effects
 				(font
@@ -13489,7 +13489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" ""
 			(at 321.0052 99.06 0)
 			(effects
 				(font
@@ -13624,7 +13624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
+		(property "Footprint" ""
 			(at 309.88 80.01 0)
 			(effects
 				(font
@@ -14123,7 +14123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 372.872 95.25 90)
 			(effects
 				(font
@@ -14406,7 +14406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 138.43 95.25 0)
 			(effects
 				(font
@@ -14860,7 +14860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 63.5 95.25 0)
 			(effects
 				(font
@@ -15131,7 +15131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -15671,7 +15671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 383.032 48.26 90)
 			(effects
 				(font
@@ -16472,7 +16472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -16725,7 +16725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -17066,7 +17066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 367.792 48.26 90)
 			(effects
 				(font
@@ -17136,7 +17136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 360.172 48.26 90)
 			(effects
 				(font
@@ -17338,7 +17338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
+		(property "Footprint" ""
 			(at 369.57 80.01 0)
 			(effects
 				(font
@@ -17538,7 +17538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 63.5 44.45 0)
 			(effects
 				(font
@@ -17725,7 +17725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" ""
 			(at 380.6952 99.06 0)
 			(effects
 				(font
@@ -17924,7 +17924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 343.662 95.25 90)
 			(effects
 				(font
@@ -17994,7 +17994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 390.652 48.26 90)
 			(effects
 				(font
@@ -18329,7 +18329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 165.1 44.45 0)
 			(effects
 				(font
@@ -18453,7 +18453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 375.412 48.26 90)
 			(effects
 				(font
@@ -18670,7 +18670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 165.1 95.25 0)
 			(effects
 				(font
@@ -18859,7 +18859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_tester:ESP32-C3-OLED"
+		(property "Footprint" ""
 			(at 328.93 52.07 0)
 			(effects
 				(font
@@ -18886,52 +18886,52 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin ""
 			(uuid "5e7e5d9d-f3d0-452c-9d01-63448e3b7ab3")
 		)
-		(pin "5V"
+		(pin ""
 			(uuid "1cfcd824-17ea-4415-94ae-324da65a6f5a")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "be736ba2-c728-47f2-a166-a7c8b53f80c1")
 		)
-		(pin "3V3"
+		(pin ""
 			(uuid "8cafe339-c2ec-4dbe-8ff4-3aa1a3fe9879")
 		)
-		(pin "0"
+		(pin ""
 			(uuid "c09a0e25-b754-4879-8f3b-5bf568b2cb70")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "17a84b93-880a-41b6-b1a7-9b83589dfa78")
 		)
-		(pin "RX"
+		(pin ""
 			(uuid "7986fa39-eeb4-4bfa-a83a-0cccd568a28c")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "e1621aa9-78bd-46dc-aeed-577bca3e1e92")
 		)
-		(pin "5"
+		(pin ""
 			(uuid "ff582c39-4ca9-4851-9676-1ecf5d1cf78e")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "ed52bdb6-e579-4b69-afb0-4948e86d8090")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "9b6b881f-0f2d-421e-a674-97acdd863e96")
 		)
-		(pin "TX"
+		(pin ""
 			(uuid "e996341a-9eef-4b37-ad9b-b0c3c6a9f5b9")
 		)
-		(pin "10"
+		(pin ""
 			(uuid "c405af79-2490-4deb-92f7-cb231ee75fe5")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "9b395e1a-8120-4fb5-b03b-f1470e1e5a06")
 		)
-		(pin "9"
+		(pin ""
 			(uuid "0ef6b790-0e4c-4764-9da8-44844d7141f1")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "d9fc757b-8080-44c5-b235-bdceeb3127e2")
 		)
 		(instances
@@ -19187,7 +19187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
+		(property "Footprint" ""
 			(at 340.36 80.01 0)
 			(effects
 				(font
@@ -19387,7 +19387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 138.43 44.45 0)
 			(effects
 				(font
@@ -19841,7 +19841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
+		(property "Footprint" ""
 			(at 259.08 80.01 0)
 			(effects
 				(font

@@ -84,7 +84,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -102,7 +102,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -120,7 +120,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3V3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -138,7 +138,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -156,7 +156,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -174,7 +174,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -192,7 +192,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -210,7 +210,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -228,7 +228,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -246,7 +246,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -264,7 +264,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -282,7 +282,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -300,7 +300,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -318,7 +318,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -336,7 +336,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -354,7 +354,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
