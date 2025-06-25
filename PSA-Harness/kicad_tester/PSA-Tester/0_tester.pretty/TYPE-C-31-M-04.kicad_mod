@@ -408,7 +408,7 @@
 		(uuid "6a3ce70d-4650-4f50-95f8-444c5f496b37")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401548E4-2A.wrl"
+	(model "/home/daniel/Data/Downloads/Amphenol_-_12401548E4#2A.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -416,7 +416,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

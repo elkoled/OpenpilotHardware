@@ -53,6 +53,16 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -1.778 22.114)
+		(end -1.778 -1.54)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5dd6622f-de47-4d51-bda4-73eaae4f4fb9")
+	)
+	(fp_line
 		(start -1.38 -1.38)
 		(end 0 -1.38)
 		(stroke
@@ -101,6 +111,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5f34241c-8edb-46e9-a728-f7591b8de231")
+	)
+	(fp_line
+		(start -0.778 -2.54)
+		(end 18.558 -2.54)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "525f028b-7dd7-4ee3-b828-43e231addf1b")
 	)
 	(fp_line
 		(start 1.38 1.27)
@@ -163,6 +183,16 @@
 		(uuid "e297ea2b-569a-4ebc-9540-fbd029f24373")
 	)
 	(fp_line
+		(start 18.558 23.114)
+		(end -0.778 23.114)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ae2eb956-5823-42ea-acb7-53ef182a91b0")
+	)
+	(fp_line
 		(start 19.16 1.27)
 		(end 19.16 19.16)
 		(stroke
@@ -172,27 +202,70 @@
 		(layer "F.SilkS")
 		(uuid "cc078b9f-b667-4353-97eb-43d4ad906967")
 	)
-	(fp_rect
-		(start -1.778 -2.54)
-		(end 19.558 23.114)
+	(fp_line
+		(start 19.558 -1.54)
+		(end 19.558 22.114)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.15)
+			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "715d25db-bb14-4048-82c7-cf435836ab80")
+		(uuid "dc6c0da3-09c6-4304-96e8-1c25308b4472")
 	)
 	(fp_rect
 		(start 3.81 -4.826)
 		(end 13.97 2.794)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "971ed926-8dbe-4cca-803a-b6ae80dc3c14")
+	)
+	(fp_arc
+		(start -1.778 -1.54)
+		(mid -1.485107 -2.247107)
+		(end -0.778 -2.54)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e467a300-61fe-4513-b23b-3886b5a075ef")
+	)
+	(fp_arc
+		(start -0.778 23.114)
+		(mid -1.485107 22.821107)
+		(end -1.778 22.114)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "066604b1-9509-428e-8342-1f7fd7b2bcde")
+	)
+	(fp_arc
+		(start 18.558 -2.54)
+		(mid 19.265107 -2.247107)
+		(end 19.558 -1.54)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c4f269b6-829f-4e3b-9293-714a8321bfa0")
+	)
+	(fp_arc
+		(start 19.558 22.114)
+		(mid 19.265107 22.821107)
+		(end 18.558 23.114)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "57a50164-0010-4285-a753-9794eb496009")
 	)
 	(fp_line
 		(start -1.77 -1.77)
@@ -503,15 +576,15 @@
 		(uuid "36b8fe69-9f0d-4b1b-9575-5b12a1763883")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+	(model "/home/daniel/Data/Downloads/esp32-c3-oled4-2-1.snapshot.2/ESP32-C3-OLED4.2.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 8.9 2 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -180 -180)
 		)
 	)
 )
