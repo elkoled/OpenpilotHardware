@@ -12887,7 +12887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-28_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 163.83 195.58 0)
 			(effects
 				(font
@@ -13615,7 +13615,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "B3S-1000"
 			(at 310.642 80.01 0)
 			(effects
 				(font
@@ -13760,7 +13760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-28_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 220.98 269.24 0)
 			(effects
 				(font
@@ -13976,7 +13976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-28_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 220.98 195.58 0)
 			(effects
 				(font
@@ -14259,7 +14259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-28_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 163.83 269.24 0)
 			(effects
 				(font
@@ -14984,7 +14984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-28_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 106.68 269.24 0)
 			(effects
 				(font
@@ -15454,7 +15454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-28_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 49.53 195.58 0)
 			(effects
 				(font
@@ -16916,7 +16916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-28_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 49.53 269.24 0)
 			(effects
 				(font
@@ -17329,7 +17329,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "B3S-1000"
 			(at 370.332 80.01 0)
 			(effects
 				(font
@@ -18523,7 +18523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-28_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 275.59 269.24 0)
 			(effects
 				(font
@@ -18971,7 +18971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-28_W7.62mm_SideBrazed_LongPads"
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm"
 			(at 106.68 195.58 0)
 			(effects
 				(font
@@ -19178,7 +19178,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "B3S-1000"
 			(at 341.122 80.01 0)
 			(effects
 				(font
@@ -19832,7 +19832,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB_C_Receptacle"
+		(property "Value" "U262-241N-4BV60"
 			(at 254 110.744 0)
 			(effects
 				(font
