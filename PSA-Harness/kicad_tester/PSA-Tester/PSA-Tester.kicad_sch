@@ -13499,7 +13499,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020-V1"
+		(property "Value" "XL-0807RGBC-WS2812B"
 			(at 318.77 77.724 0)
 			(effects
 				(font
