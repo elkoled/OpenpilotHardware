@@ -173,8 +173,8 @@
 		(uuid "cc078b9f-b667-4353-97eb-43d4ad906967")
 	)
 	(fp_rect
-		(start -2.54 -3.81)
-		(end 20.32 24.13)
+		(start -1.778 -2.54)
+		(end 19.558 23.114)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -184,8 +184,8 @@
 		(uuid "715d25db-bb14-4048-82c7-cf435836ab80")
 	)
 	(fp_rect
-		(start 3.81 -6.35)
-		(end 13.97 2.54)
+		(start 3.81 -4.826)
+		(end 13.97 2.794)
 		(stroke
 			(width 0.1)
 			(type solid)
