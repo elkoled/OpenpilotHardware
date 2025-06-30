@@ -14163,7 +14163,7 @@
 				)
 			)
 		)
-		(property "Value" "B3S-1000"
+		(property "Value" "B3FS-1010P"
 			(at 332.232 81.28 0)
 			(effects
 				(font
@@ -14172,7 +14172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_tester:SW_SPST_B3S-1000"
+		(property "Footprint" "0_tester:SW_SPST_Omron_B3FS-101xP"
 			(at 331.47 81.28 0)
 			(effects
 				(font
@@ -18075,7 +18075,7 @@
 				)
 			)
 		)
-		(property "Value" "B3S-1000"
+		(property "Value" "B3FS-1010P"
 			(at 377.952 81.28 0)
 			(effects
 				(font
@@ -18084,7 +18084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_tester:SW_SPST_B3S-1000"
+		(property "Footprint" "0_tester:SW_SPST_Omron_B3FS-101xP"
 			(at 377.19 81.28 0)
 			(effects
 				(font
@@ -19924,7 +19924,7 @@
 				)
 			)
 		)
-		(property "Value" "B3S-1000"
+		(property "Value" "B3FS-1010P"
 			(at 355.092 81.28 0)
 			(effects
 				(font
@@ -19933,7 +19933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_tester:SW_SPST_B3S-1000"
+		(property "Footprint" "0_tester:SW_SPST_Omron_B3FS-101xP"
 			(at 354.33 81.28 0)
 			(effects
 				(font
@@ -20711,7 +20711,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "U262-241N-4BV60"
+		(property "Value" "TYPE-C-31-M-04"
 			(at 254 110.744 0)
 			(effects
 				(font
