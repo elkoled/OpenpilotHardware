@@ -252,7 +252,7 @@
 		(uuid "e6e3b1bc-4064-4031-9b80-d1df61337d0a")
 	)
 	(embedded_fonts no)
-	(model "/home/daniel/Data/Downloads/ws2812-2020-1.snapshot.4/WS2812-2020.STEP"
+	(model "${KIPRJMOD}/0_tester_3d/WS2812-2020.STEP"
 		(offset
 			(xyz 0 0 0.3)
 		)

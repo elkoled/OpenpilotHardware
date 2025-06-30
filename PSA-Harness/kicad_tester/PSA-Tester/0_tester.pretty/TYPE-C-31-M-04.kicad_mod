@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7bf1316d-f859-4223-bd7c-3aadf5f69220")
+		(uuid "aef198a9-fa88-49e7-937b-9b6d36318638")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "32a3de94-539c-426d-8ed4-6c7e8feedf79")
+		(uuid "050747f0-72eb-4e24-8d0a-ae9f8ca16d81")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -408,15 +408,15 @@
 		(uuid "6a3ce70d-4650-4f50-95f8-444c5f496b37")
 	)
 	(embedded_fonts no)
-	(model "/home/daniel/Data/Downloads/Amphenol_-_12401548E4#2A.step"
+	(model "${KIPRJMOD}/0_tester_3d/TYPE-C-31-M-04.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 4.4 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

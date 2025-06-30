@@ -261,7 +261,7 @@
 		(uuid "b8fa4516-4712-4931-816a-136e76d17308")
 	)
 	(embedded_fonts no)
-	(model "/home/daniel/Data/Downloads/B3S-1000--3DModel-STEP-273799.STEP"
+	(model "${KIPRJMOD}/0_tester_3d/Omron-B3S-1000.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

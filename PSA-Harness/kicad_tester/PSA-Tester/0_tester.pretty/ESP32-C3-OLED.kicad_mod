@@ -576,9 +576,9 @@
 		(uuid "36b8fe69-9f0d-4b1b-9575-5b12a1763883")
 	)
 	(embedded_fonts no)
-	(model "/home/daniel/Data/Downloads/esp32-c3-oled4-2-1.snapshot.2/ESP32-C3-OLED4.2.step"
+	(model "${KIPRJMOD}/0_tester_3d/ESP32-C3-OLED4.2.step"
 		(offset
-			(xyz 8.9 2 0)
+			(xyz 8.9 2.2 0)
 		)
 		(scale
 			(xyz 1 1 1)
