@@ -37,66 +37,66 @@ struct PinMapping {
 // Index = Pin number, Value = PinMapping struct
 PinMapping pin_map[] = {
     {-1, 'X', 0, false}, // Index 0 - no pin 0
-    {0, 'B', 0, true},   // Pin 1  -> MCP1 GPB0
-    {0, 'A', 2, true},   // Pin 2  -> MCP1 GPA2
-    {0, 'B', 1, true},   // Pin 3  -> MCP1 GPB1
-    {0, 'A', 3, true},   // Pin 4  -> MCP1 GPA3
-    {0, 'B', 2, true},   // Pin 5  -> MCP1 GPB2
-    {0, 'A', 4, true},   // Pin 6  -> MCP1 GPA4
-    {0, 'B', 3, true},   // Pin 7  -> MCP1 GPB3
-    {0, 'A', 5, true},   // Pin 8  -> MCP1 GPA5
-    {0, 'B', 4, true},   // Pin 9  -> MCP1 GPB4
-    {0, 'A', 6, true},   // Pin 10 -> MCP1 GPA6
-    {1, 'B', 3, true},   // Pin 11 -> MCP2 GPB3
-    {0, 'A', 1, true},   // Pin 12 -> MCP1 GPA1
-    {1, 'B', 2, true},   // Pin 13 -> MCP2 GPB2
-    {0, 'A', 0, true},   // Pin 14 -> MCP1 GPA0
-    {1, 'B', 1, true},   // Pin 15 -> MCP2 GPB1
-    {0, 'B', 7, true},   // Pin 16 -> MCP1 GPB7
-    {1, 'B', 0, true},   // Pin 17 -> MCP2 GPB0
-    {0, 'B', 6, true},   // Pin 18 -> MCP1 GPB6
-    {0, 'A', 7, true},   // Pin 19 -> MCP1 GPA7
-    {0, 'B', 5, true},   // Pin 20 -> MCP1 GPB5
-    {1, 'B', 4, true},   // Pin 21 -> MCP2 GPB4
-    {1, 'A', 6, true},   // Pin 22 -> MCP2 GPA6
-    {1, 'B', 5, true},   // Pin 23 -> MCP2 GPB5
-    {1, 'A', 7, true},   // Pin 24 -> MCP2 GPA7
-    {1, 'B', 6, true},   // Pin 25 -> MCP2 GPB6
-    {2, 'B', 0, true},   // Pin 26 -> MCP3 GPB0
-    {1, 'B', 7, true},   // Pin 27 -> MCP2 GPB7
-    {2, 'B', 1, true},   // Pin 28 -> MCP3 GPB1
-    {1, 'A', 0, true},   // Pin 29 -> MCP2 GPA0
-    {2, 'B', 2, true},   // Pin 30 -> MCP3 GPB2
-    {2, 'B', 7, true},   // Pin 31 -> MCP3 GPB7
-    {1, 'A', 5, true},   // Pin 32 -> MCP2 GPA5
-    {2, 'B', 6, true},   // Pin 33 -> MCP3 GPB6
-    {1, 'A', 4, true},   // Pin 34 -> MCP2 GPA4
-    {2, 'B', 5, true},   // Pin 35 -> MCP3 GPB5
-    {1, 'A', 3, true},   // Pin 36 -> MCP2 GPA3
-    {2, 'B', 4, true},   // Pin 37 -> MCP3 GPB4
-    {1, 'A', 2, true},   // Pin 38 -> MCP2 GPA2
-    {2, 'B', 3, true},   // Pin 39 -> MCP3 GPB3
-    {1, 'A', 1, true},   // Pin 40 -> MCP2 GPA1
-    {2, 'A', 0, true},   // Pin 41 -> MCP3 GPA0
-    {3, 'B', 2, true},   // Pin 42 -> MCP4 GPB2
-    {2, 'A', 1, true},   // Pin 43 -> MCP3 GPA1
-    {3, 'B', 3, true},   // Pin 44 -> MCP4 GPB3
-    {2, 'A', 2, true},   // Pin 45 -> MCP3 GPA2
-    {3, 'B', 4, true},   // Pin 46 -> MCP4 GPB4
-    {2, 'A', 3, true},   // Pin 47 -> MCP3 GPA3
-    {3, 'B', 5, true},   // Pin 48 -> MCP4 GPB5
-    {2, 'A', 4, true},   // Pin 49 -> MCP3 GPA4
-    {3, 'B', 6, true},   // Pin 50 -> MCP4 GPB6
-    {3, 'A', 3, true},   // Pin 51 -> MCP4 GPA3
-    {3, 'B', 1, true},   // Pin 52 -> MCP4 GPB1
-    {3, 'A', 2, true},   // Pin 53 -> MCP4 GPA2
-    {3, 'B', 0, true},   // Pin 54 -> MCP4 GPB0
-    {3, 'A', 1, true},   // Pin 55 -> MCP4 GPA1
-    {2, 'A', 7, true},   // Pin 56 -> MCP3 GPA7
-    {3, 'A', 0, true},   // Pin 57 -> MCP4 GPA0
-    {2, 'A', 6, true},   // Pin 58 -> MCP3 GPA6
-    {3, 'B', 7, true},   // Pin 59 -> MCP4 GPB7
-    {2, 'A', 5, true},   // Pin 60 -> MCP3 GPA5
+    {1, 'B', 0, true},   // Pin 1
+    {1, 'B', 2, true},   // Pin 2
+    {1, 'B', 4, true},   // Pin 3
+    {1, 'B', 6, true},   // Pin 4
+    {1, 'A', 0, true},   // Pin 5
+    {2, 'B', 3, true},   // Pin 6
+    {2, 'B', 1, true},   // Pin 7
+    {1, 'A', 7, true},   // Pin 8
+    {1, 'A', 5, true},   // Pin 9
+    {1, 'A', 3, true},   // Pin 10
+    {1, 'B', 1, true},   // Pin 11
+    {1, 'B', 3, true},   // Pin 12
+    {1, 'B', 5, true},   // Pin 13
+    {1, 'B', 7, true},   // Pin 14
+    {1, 'A', 1, true},   // Pin 15
+    {2, 'B', 2, true},   // Pin 16
+    {2, 'B', 0, true},   // Pin 17
+    {1, 'A', 6, true},   // Pin 18
+    {1, 'A', 4, true},   // Pin 19
+    {1, 'A', 2, true},   // Pin 20
+    {2, 'B', 4, true},   // Pin 21
+    {2, 'B', 6, true},   // Pin 22
+    {2, 'A', 0, true},   // Pin 23
+    {2, 'A', 2, true},   // Pin 24
+    {2, 'A', 4, true},   // Pin 25
+    {3, 'B', 7, true},   // Pin 26
+    {3, 'B', 5, true},   // Pin 27
+    {3, 'B', 3, true},   // Pin 28
+    {3, 'B', 1, true},   // Pin 29
+    {2, 'A', 7, true},   // Pin 30
+    {2, 'B', 5, true},   // Pin 31
+    {2, 'B', 7, true},   // Pin 32
+    {2, 'A', 1, true},   // Pin 33
+    {2, 'A', 3, true},   // Pin 34
+    {2, 'A', 5, true},   // Pin 35
+    {3, 'B', 6, true},   // Pin 36
+    {3, 'B', 4, true},   // Pin 37
+    {3, 'B', 2, true},   // Pin 38
+    {3, 'B', 0, true},   // Pin 39
+    {2, 'A', 6, true},   // Pin 40
+    {3, 'A', 0, true},   // Pin 41
+    {3, 'A', 2, true},   // Pin 42
+    {3, 'A', 4, true},   // Pin 43
+    {3, 'A', 6, true},   // Pin 44
+    {4, 'B', 0, true},   // Pin 45
+    {4, 'A', 3, true},   // Pin 46
+    {4, 'A', 1, true},   // Pin 47
+    {4, 'B', 7, true},   // Pin 48
+    {4, 'B', 5, true},   // Pin 49
+    {4, 'B', 3, true},   // Pin 50
+    {3, 'A', 1, true},   // Pin 51
+    {3, 'A', 3, true},   // Pin 52
+    {3, 'A', 5, true},   // Pin 53
+    {3, 'A', 7, true},   // Pin 54
+    {4, 'B', 1, true},   // Pin 55
+    {4, 'A', 2, true},   // Pin 56
+    {4, 'A', 0, true},   // Pin 57
+    {4, 'B', 6, true},   // Pin 58
+    {4, 'B', 4, true},   // Pin 59
+    {4, 'B', 2, true},   // Pin 60
     {7, 'A', 4, true},   // Pin 61 -> MCP8 GPA4
     {7, 'A', 5, true},   // Pin 62 -> MCP8 GPA5
     {7, 'A', 6, true},   // Pin 63 -> MCP8 GPA6
@@ -223,7 +223,13 @@ void setup() {
   delay(3000);
 
   // Initialize MCP chips
-  for (int i = 0; i < 9; i++) {
+  for (int i = 5; i < 9; i++) {
+    mcp[i].begin();
+    mcp[i].set_port_a_as_inputs(true);
+    mcp[i].set_port_b_as_inputs(true);
+  }
+
+  for (int i = 0; i < 4; i++) {
     mcp[i].begin();
     mcp[i].set_port_a_as_outputs();
     mcp[i].set_port_b_as_outputs();
@@ -231,35 +237,22 @@ void setup() {
     mcp[i].write_port_b(0x00);
   }
 
-  Serial.println("Setting up pins...");
+  Serial.println("Setup complete!");
 }
 
 void loop() {
-  for(int i = MIN_PIN; i <= MAX_PIN; i++)
-  {
-    digitalWritePin(i, HIGH);
-    Serial.print("Pin ");
-    Serial.print(i);
-    Serial.println(" is HIGH");
-    delay(1000);
-    digitalWritePin(i, LOW);
-  }
-  for(int i = MIN_PIN; i <= MAX_PIN; i++)
-  {
-    digitalWritePlugPin(i, HIGH);
-    Serial.print("Pin ");
-    Serial.print(i);
-    Serial.println("a is HIGH");
-    delay(1000);
-    digitalWritePlugPin(i, LOW);
-  }
-  for(int i = MIN_USB; i <= MAX_USB; i++)
-  {
-    digitalWritePin(i, HIGH);
-    Serial.print("Pin ");
-    Serial.print(i);
-    Serial.println(" is HIGH");
-    delay(1000);
-    digitalWritePin(i, LOW);
+  static int current_output_pin = 1;
+  static unsigned long last_change = 0;
+
+  if (millis() - last_change > 500) {
+    for (int i = MIN_PIN; i <= MAX_PIN; i++) {
+      Serial.print(digitalReadPin(i));
+      if (i < MAX_PIN)
+        Serial.print(",");
+    }
+
+    Serial.println("]");
+
+    last_change = millis();
   }
 }
