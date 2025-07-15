@@ -266,21 +266,18 @@ void setup() {
 }
 
 void loop() {
-  // Cycle through pins 1-79: set one as OUTPUT LOW, rest as INPUT_PULLUP
   static int current_output_pin = 1;
   static unsigned long last_change = 0;
 
-  // Change every 500ms
   if (millis() - last_change > 500) {
-    // Set previous pin back to INPUT_PULLUP
+    // Restore previous pin to INPUT_PULLUP
     pinModePin(current_output_pin, INPUT_PULLUP);
     pinModePlugPin(current_output_pin, INPUT_PULLUP);
 
     // Move to next pin
     current_output_pin++;
-    if (current_output_pin > MAX_PIN) {
+    if (current_output_pin > MAX_PIN)
       current_output_pin = 1;
-    }
 
     // Set new pin to OUTPUT LOW
     pinModePin(current_output_pin, OUTPUT);
@@ -288,7 +285,15 @@ void loop() {
 
     Serial.print("Pin ");
     Serial.print(current_output_pin);
-    Serial.println(" is now OUTPUT LOW");
+    Serial.print(" [");
+
+    for (int i = 1; i <= 79; i++) {
+      Serial.print(digitalReadPin(i));
+      if (i < 79)
+        Serial.print(",");
+    }
+
+    Serial.println("]");
 
     last_change = millis();
   }
