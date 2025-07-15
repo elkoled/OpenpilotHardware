@@ -169,52 +169,52 @@ void pinModePin(int pin, int mode) {
   }
 }
 
-// plug specific functions
-void digitalWritePlugPin(int pin, int value) {
+// socket specific functions
+void digitalWriteSocketPin(int pin, int value) {
   PinMapping *mapping = getPinMapping(pin);
   if (!mapping)
     return;
 
-  int plug_mcp_index = mapping->mcp_index + 4;
-  if (plug_mcp_index >= NUM_MCP)
+  int socket_mcp_index = mapping->mcp_index + 4;
+  if (socket_mcp_index >= NUM_MCP)
     return;
 
   if (mapping->port == 'A') {
-    mcp[plug_mcp_index].digital_write_a(mapping->pin, value);
+    mcp[socket_mcp_index].digital_write_a(mapping->pin, value);
   } else {
-    mcp[plug_mcp_index].digital_write_b(mapping->pin, value);
+    mcp[socket_mcp_index].digital_write_b(mapping->pin, value);
   }
 }
 
-int digitalReadPlugPin(int pin) {
+int digitalReadSocketPin(int pin) {
   PinMapping *mapping = getPinMapping(pin);
   if (!mapping)
     return LOW;
 
-  int plug_mcp_index = mapping->mcp_index + 4;
-  if (plug_mcp_index >= NUM_MCP)
+  int socket_mcp_index = mapping->mcp_index + 4;
+  if (socket_mcp_index >= NUM_MCP)
     return LOW;
 
   if (mapping->port == 'A') {
-    return mcp[plug_mcp_index].digital_read_a(mapping->pin);
+    return mcp[socket_mcp_index].digital_read_a(mapping->pin);
   } else {
-    return mcp[plug_mcp_index].digital_read_b(mapping->pin);
+    return mcp[socket_mcp_index].digital_read_b(mapping->pin);
   }
 }
 
-void pinModePlugPin(int pin, int mode) {
+void pinModeSocketPin(int pin, int mode) {
   PinMapping *mapping = getPinMapping(pin);
   if (!mapping)
     return;
 
-  int plug_mcp_index = mapping->mcp_index + 4;
-  if (plug_mcp_index >= NUM_MCP)
+  int socket_mcp_index = mapping->mcp_index + 4;
+  if (socket_mcp_index >= NUM_MCP)
     return;
 
   if (mapping->port == 'A') {
-    mcp[plug_mcp_index].pin_mode_a(mapping->pin, mode);
+    mcp[socket_mcp_index].pin_mode_a(mapping->pin, mode);
   } else {
-    mcp[plug_mcp_index].pin_mode_b(mapping->pin, mode);
+    mcp[socket_mcp_index].pin_mode_b(mapping->pin, mode);
   }
 }
 
@@ -223,13 +223,13 @@ void setup() {
   delay(3000);
 
   // Initialize MCP chips
-  for (int i = 5; i < 9; i++) {
+  for (int i = 0; i < 4; i++) {
     mcp[i].begin();
     mcp[i].set_port_a_as_inputs(true);
     mcp[i].set_port_b_as_inputs(true);
   }
 
-  for (int i = 0; i < 4; i++) {
+  for (int i = 5; i < 9; i++) {
     mcp[i].begin();
     mcp[i].set_port_a_as_outputs();
     mcp[i].set_port_b_as_outputs();
@@ -245,6 +245,7 @@ void loop() {
   static unsigned long last_change = 0;
 
   if (millis() - last_change > 500) {
+    Serial.print("[");
     for (int i = MIN_PIN; i <= MAX_PIN; i++) {
       Serial.print(digitalReadPin(i));
       if (i < MAX_PIN)
