@@ -20,6 +20,11 @@ MCP23017 mcp[] = {
 
 const int NUM_MCP = sizeof(mcp) / sizeof(MCP23017);
 
+const int MIN_PIN = 1;
+const int MAX_PIN = 60;
+const int MIN_USB = 61;
+const int MAX_USB = 79;
+
 // Structure to hold pin mapping information
 struct PinMapping {
   int mcp_index; // Which MCP chip (0-8)
@@ -112,11 +117,6 @@ PinMapping pin_map[] = {
     {8, 'A', 5, true},   // Pin 78 -> MCP9 GPA5
     {8, 'A', 6, true},   // Pin 79 -> MCP9 GPA6
 };
-
-const int MIN_PIN = 1;
-const int MAX_PIN = 60;
-const int MIN_USB = 61;
-const int MAX_USB = 79;
 
 // Helper function to get pin mapping
 PinMapping *getPinMapping(int pin) {
@@ -225,76 +225,41 @@ void setup() {
   // Initialize MCP chips
   for (int i = 0; i < 9; i++) {
     mcp[i].begin();
-    mcp[i].set_port_a_as_inputs(true);
-    mcp[i].set_port_b_as_inputs(true);
+    mcp[i].set_port_a_as_outputs();
+    mcp[i].set_port_b_as_outputs();
+    mcp[i].write_port_a(0x00);
+    mcp[i].write_port_b(0x00);
   }
 
-  // Test code: Set all pins to INPUT_PULLUP except pin 1 (OUTPUT, LOW)
   Serial.println("Setting up pins...");
-
-  // SOCKET
-  for (int pin = MIN_PIN; pin <= MAX_PIN; pin++) {
-    if (pin == 1) {
-      pinModePin(pin, OUTPUT);
-      digitalWritePin(pin, LOW);
-      Serial.print("Pin ");
-      Serial.print(pin);
-      Serial.println(" set to OUTPUT, LOW");
-    } else {
-      pinModePin(pin, INPUT_PULLUP);
-    }
-  }
-  // PLUG
-  for (int pin = MIN_PIN; pin <= MAX_PIN; pin++) {
-    pinModePlugPin(pin, OUTPUT);
-    digitalWritePlugPin(pin, LOW);
-    Serial.print("Pin ");
-    Serial.print(pin);
-    Serial.println(" set to OUTPUT, LOW");
-  }
-  // USB
-  for (int pin = MIN_USB; pin <= MAX_USB; pin++) {
-    pinModePin(pin, OUTPUT);
-    digitalWritePin(pin, LOW);
-    Serial.print("Pin ");
-    Serial.print(pin);
-    Serial.println(" set to OUTPUT, LOW");
-  }
-
-  Serial.println("All other pins set to INPUT_PULLUP");
-  Serial.println("Setup complete!");
 }
 
 void loop() {
-  static int current_output_pin = 1;
-  static unsigned long last_change = 0;
-
-  if (millis() - last_change > 500) {
-    // Restore previous pin to INPUT_PULLUP
-    pinModePin(current_output_pin, INPUT_PULLUP);
-    pinModePlugPin(current_output_pin, INPUT_PULLUP);
-
-    // Move to next pin
-    current_output_pin++;
-    if (current_output_pin > MAX_PIN)
-      current_output_pin = 1;
-
-    // Set new pin to OUTPUT LOW
-    pinModePin(current_output_pin, OUTPUT);
-    digitalWritePin(current_output_pin, LOW);
-
+  for(int i = MIN_PIN; i <= MAX_PIN; i++)
+  {
+    digitalWritePin(i, HIGH);
     Serial.print("Pin ");
-    Serial.print(current_output_pin);
-    Serial.print(" [");
-
-    for (int i = 1; i <= 79; i++) {
-      Serial.print(digitalReadPin(i));
-      if (i < 79)
-        Serial.print(",");
-    }
-
-    Serial.println("]");
-
-    last_change = millis();
+    Serial.print(i);
+    Serial.println(" is HIGH");
+    delay(1000);
+    digitalWritePin(i, LOW);
+  }
+  for(int i = MIN_PIN; i <= MAX_PIN; i++)
+  {
+    digitalWritePlugPin(i, HIGH);
+    Serial.print("Pin ");
+    Serial.print(i);
+    Serial.println("a is HIGH");
+    delay(1000);
+    digitalWritePlugPin(i, LOW);
+  }
+  for(int i = MIN_USB; i <= MAX_USB; i++)
+  {
+    digitalWritePin(i, HIGH);
+    Serial.print("Pin ");
+    Serial.print(i);
+    Serial.println(" is HIGH");
+    delay(1000);
+    digitalWritePin(i, LOW);
   }
 }
