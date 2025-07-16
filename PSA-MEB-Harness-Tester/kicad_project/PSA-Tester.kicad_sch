@@ -1299,7 +1299,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x10_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x10_Top_Bottom"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1315,7 +1315,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x10_Counter_Clockwise"
+			(property "Value" "Conn_02x10_Top_Bottom"
 				(at 1.27 -15.24 0)
 				(effects
 					(font
@@ -1341,7 +1341,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1368,7 +1368,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x10_Counter_Clockwise_1_1"
+			(symbol "Conn_02x10_Top_Bottom_1_1"
 				(rectangle
 					(start -1.27 11.43)
 					(end 3.81 -13.97)
@@ -1783,14 +1783,14 @@
 				(pin passive line
 					(at 7.62 10.16 180)
 					(length 3.81)
-					(name "Pin_20"
+					(name "Pin_11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "20"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1800,132 +1800,6 @@
 				)
 				(pin passive line
 					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1943,16 +1817,142 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at 7.62 5.08 180)
 					(length 3.81)
-					(name "Pin_11"
+					(name "Pin_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 3.81)
+					(name "Pin_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -12.7 180)
+					(length 3.81)
+					(name "Pin_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13499,15 +13499,15 @@
 				)
 			)
 		)
-		(property "Value" "XL-0807RGBC-WS2812B"
-			(at 318.77 77.724 0)
+		(property "Value" "WS2812"
+			(at 318.516 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "0_tester:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 320.04 104.14 0)
 			(effects
 				(font
@@ -13758,7 +13758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 38.1 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13782,7 +13782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 38.1 95.25 0)
 			(effects
 				(font
@@ -13800,7 +13800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 38.1 95.25 0)
 			(effects
 				(font
@@ -14930,7 +14930,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 138.43 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14938,7 +14938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "414b7cff-4527-437c-82bc-296be6b8658d")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 139.954 81.534 0)
 			(effects
 				(font
@@ -14954,7 +14954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 138.43 95.25 0)
 			(effects
 				(font
@@ -14972,7 +14972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 138.43 95.25 0)
 			(effects
 				(font
@@ -15044,7 +15044,7 @@
 		(instances
 			(project "PSA-Tester"
 				(path "/e0029412-f2c0-4791-9162-eded45ef3b03"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -15384,7 +15384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 63.5 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15408,7 +15408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 63.5 95.25 0)
 			(effects
 				(font
@@ -15426,7 +15426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 63.5 95.25 0)
 			(effects
 				(font
@@ -15721,7 +15721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 38.1 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15745,7 +15745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -15763,7 +15763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -17194,7 +17194,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 88.9 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17218,7 +17218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -17236,7 +17236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -17447,7 +17447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 191.77 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17471,7 +17471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -17489,7 +17489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -18260,7 +18260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 63.5 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18284,7 +18284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 63.5 44.45 0)
 			(effects
 				(font
@@ -18302,7 +18302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 63.5 44.45 0)
 			(effects
 				(font
@@ -19051,7 +19051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 165.1 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19059,7 +19059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c47998d1-20b5-4f4d-b9c5-33c01af54aa6")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 166.624 30.734 0)
 			(effects
 				(font
@@ -19075,7 +19075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 165.1 44.45 0)
 			(effects
 				(font
@@ -19093,7 +19093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 165.1 44.45 0)
 			(effects
 				(font
@@ -19165,7 +19165,7 @@
 		(instances
 			(project "PSA-Tester"
 				(path "/e0029412-f2c0-4791-9162-eded45ef3b03"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -19392,7 +19392,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 165.1 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19416,7 +19416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 165.1 95.25 0)
 			(effects
 				(font
@@ -19434,7 +19434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 165.1 95.25 0)
 			(effects
 				(font
@@ -20176,7 +20176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
 		(at 138.43 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20200,7 +20200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+		(property "Footprint" "0_tester:PinHeader_2x10_P2.54mm_Vertical"
 			(at 138.43 44.45 0)
 			(effects
 				(font
@@ -20218,7 +20218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 138.43 44.45 0)
 			(effects
 				(font

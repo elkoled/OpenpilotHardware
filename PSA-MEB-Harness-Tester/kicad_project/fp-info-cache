@@ -1,4 +1,4 @@
-25612949120615584
+25606340391287235
 0_tester
 ESP32-C3-OLED
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
@@ -6,6 +6,41 @@ Through hole pin header THT 1x08 2.54mm single row
 0
 16
 16
+0_tester
+LED_WS2812B-2020_PLCC4_2.0x2.0mm
+2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf
+LED RGB NeoPixel Nano PLCC-4 2020
+0
+4
+4
+0_tester
+PinHeader_2x10_P2.54mm_Vertical
+Through hole straight pin header, 2x10, 2.54mm pitch, double rows
+Through hole pin header THT 2x10 2.54mm double row
+0
+20
+20
+0_tester
+SW_SPST_B3S-1000
+Surface Mount Tactile Switch for High-Density Packaging
+Tactile Switch
+0
+4
+2
+0_tester
+SW_SPST_Omron_B3FS-101xP
+Surface Mount Tactile Switch for High-Density Mounting, 4.3mm height, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf
+Tactile Switch
+0
+4
+2
+0_tester
+TYPE-C-31-M-04
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+25
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
