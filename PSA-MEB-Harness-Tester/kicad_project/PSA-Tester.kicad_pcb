@@ -17567,7 +17567,7 @@
 		)
 	)
 	(gr_text "OBD-C"
-		(at 117.5 133.25 0)
+		(at 117.46 131.7 0)
 		(layer "F.SilkS")
 		(uuid "2bb6874e-0ac7-471e-9ab3-ad09723fca86")
 		(effects
