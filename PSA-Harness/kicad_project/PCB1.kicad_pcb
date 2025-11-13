@@ -212,7 +212,7 @@
 		(uuid "4434ac52-7d84-4d62-ae9a-3d121af6158a")
 		(at 126.682 104.174)
 		(property "Reference" "J10"
-			(at 0.018 2.126 0)
+			(at -0.012 2.026 0)
 			(layer "F.SilkS")
 			(uuid "fb216ecb-dd12-4f15-96de-5626e9d21cf6")
 			(effects
@@ -2923,36 +2923,6 @@
 			)
 		)
 	)
-	(gr_line
-		(start 140 107)
-		(end 139.2 106.125)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4ef3887b-a267-4d2f-9d55-9ca31735fb8e")
-	)
-	(gr_line
-		(start 139.2 108.2)
-		(end 139.2 106.125)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8730a220-44e0-4d79-acc7-1178f984d2b2")
-	)
-	(gr_line
-		(start 139.2 106.125)
-		(end 138.4 107)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "be46ed57-098c-4f88-8cbe-a3c8c207ad3a")
-	)
 	(gr_arc
 		(start 146.84 144.55)
 		(mid 146.547107 145.257107)
@@ -3037,14 +3007,15 @@
 		(layer "Edge.Cuts")
 		(uuid "c3047f68-a7e3-4274-a4ae-357ad0a83cae")
 	)
-	(gr_text "up"
-		(at 134 108 0)
+	(gr_text "PSA Harness v1.1"
+		(at 125.58 108.98 0)
 		(layer "F.SilkS")
-		(uuid "fef22127-dc1a-4880-8129-b4afdba4a015")
+		(uuid "72c8438d-6a98-44d5-ae2b-1cfe12a81ac8")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.25)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
