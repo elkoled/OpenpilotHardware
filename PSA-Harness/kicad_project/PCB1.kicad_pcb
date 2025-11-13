@@ -212,7 +212,7 @@
 		(uuid "4434ac52-7d84-4d62-ae9a-3d121af6158a")
 		(at 126.682 104.174)
 		(property "Reference" "J10"
-			(at -0.012 2.026 0)
+			(at 8.918 2.026 0)
 			(layer "F.SilkS")
 			(uuid "fb216ecb-dd12-4f15-96de-5626e9d21cf6")
 			(effects
@@ -223,7 +223,7 @@
 			)
 		)
 		(property "Value" "B2B_1"
-			(at 11.97 2.86 0)
+			(at 1.318 -6.274 0)
 			(layer "F.Fab")
 			(uuid "01266e3f-7d89-4777-aecf-d27de5d5e988")
 			(effects
@@ -783,7 +783,7 @@
 		(uuid "e4ec7414-34fa-44e1-8a84-7454a50ca28e")
 		(at 126.682 144.174)
 		(property "Reference" "J11"
-			(at -0.032 -6.124 0)
+			(at 9.068 -5.874 0)
 			(layer "F.SilkS")
 			(uuid "31aa3c05-d76b-44af-8f2a-cf8a7fa2657a")
 			(effects
@@ -794,7 +794,7 @@
 			)
 		)
 		(property "Value" "B2B_2"
-			(at 11.97 2.86 0)
+			(at 1.068 2.626 0)
 			(layer "F.Fab")
 			(uuid "bcf8e7e3-7a97-4f40-b2d8-f5fd608905ab")
 			(effects
@@ -3006,6 +3006,32 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "c3047f68-a7e3-4274-a4ae-357ad0a83cae")
+	)
+	(gr_text "◀align"
+		(at 124.5 138.45 0)
+		(layer "F.SilkS")
+		(uuid "46d0e56f-05e6-45fb-affc-66f1cd45271d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "align▶"
+		(at 139.05 138.45 0)
+		(layer "F.SilkS")
+		(uuid "5ca0409d-3d70-4c5c-abdc-8b4abc952be4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "PSA Harness v1.1"
 		(at 125.58 108.98 0)
