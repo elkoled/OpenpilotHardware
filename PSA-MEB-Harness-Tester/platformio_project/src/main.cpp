@@ -53,37 +53,55 @@ void setup() {
 }
 
 void loop() {
-  static unsigned long last = 0;
-  if (millis() - last < 500) return;
-  last = millis();
+  // Test 1: All LOW
+  Serial.println("\n=== ALL LOW ===");
+  U5.write_port_b(0x00); U5.write_port_a(0x00);
+  U6.write_port_b(0x00); U6.write_port_a(0x00);
+  U7.write_port_b(0x00); U7.write_port_a(0x00);
+  U8.write_port_b(0x00);
+  for (int i = 0; i < 4; i++) U8.digital_write_a(i, LOW);
+  delay(10);
+  Serial.printf("U1: B=%02X A=%02X\n", U1.read_port_b(), U1.read_port_a());
+  Serial.printf("U2: B=%02X A=%02X\n", U2.read_port_b(), U2.read_port_a());
+  Serial.printf("U3: B=%02X A=%02X\n", U3.read_port_b(), U3.read_port_a());
+  Serial.printf("U4: B=%02X A=%02X\n", U4.read_port_b(), U4.read_port_a());
 
-  // Read plug side pins 1-60 (U1-U4)
-  uint8_t u1b = U1.read_port_b(), u1a = U1.read_port_a();  // 1-16
-  uint8_t u2b = U2.read_port_b(), u2a = U2.read_port_a();  // 17-32
-  uint8_t u3b = U3.read_port_b(), u3a = U3.read_port_a();  // 33-48
-  uint8_t u4b = U4.read_port_b(), u4a = U4.read_port_a();  // 49-60
+  // Test 2: All HIGH
+  Serial.println("\n=== ALL HIGH ===");
+  U5.write_port_b(0xFF); U5.write_port_a(0xFF);
+  U6.write_port_b(0xFF); U6.write_port_a(0xFF);
+  U7.write_port_b(0xFF); U7.write_port_a(0xFF);
+  U8.write_port_b(0xFF);
+  for (int i = 0; i < 4; i++) U8.digital_write_a(i, HIGH);
+  delay(10);
+  Serial.printf("U1: B=%02X A=%02X\n", U1.read_port_b(), U1.read_port_a());
+  Serial.printf("U2: B=%02X A=%02X\n", U2.read_port_b(), U2.read_port_a());
+  Serial.printf("U3: B=%02X A=%02X\n", U3.read_port_b(), U3.read_port_a());
+  Serial.printf("U4: B=%02X A=%02X\n", U4.read_port_b(), U4.read_port_a());
 
-  // Read USB-C pins 61-79 (U8 + U9)
-  uint8_t u8a = U8.read_port_a();  // 61-64 (bits 4-7)
-  uint8_t u9b = U9.read_port_b();  // 65-72
-  uint8_t u9a = U9.read_port_a();  // 73-79 (bit 7 = NC)
+  // Test 3: Pattern 0xAA (10101010)
+  Serial.println("\n=== PATTERN 0xAA ===");
+  U5.write_port_b(0xAA); U5.write_port_a(0xAA);
+  U6.write_port_b(0xAA); U6.write_port_a(0xAA);
+  U7.write_port_b(0xAA); U7.write_port_a(0xAA);
+  U8.write_port_b(0xAA);
+  delay(10);
+  Serial.printf("U1: B=%02X A=%02X (expect AA)\n", U1.read_port_b(), U1.read_port_a());
+  Serial.printf("U2: B=%02X A=%02X (expect AA)\n", U2.read_port_b(), U2.read_port_a());
+  Serial.printf("U3: B=%02X A=%02X (expect AA)\n", U3.read_port_b(), U3.read_port_a());
+  Serial.printf("U4: B=%02X A=%02X (expect AA)\n", U4.read_port_b(), U4.read_port_a());
 
-  // Print pins 1-60
-  Serial.print("[");
-  for (int i = 0; i < 8; i++) Serial.print((u1b >> i) & 1);  // 1-8
-  for (int i = 0; i < 8; i++) Serial.print((u1a >> i) & 1);  // 9-16
-  for (int i = 0; i < 8; i++) Serial.print((u2b >> i) & 1);  // 17-24
-  for (int i = 0; i < 8; i++) Serial.print((u2a >> i) & 1);  // 25-32
-  for (int i = 0; i < 8; i++) Serial.print((u3b >> i) & 1);  // 33-40
-  for (int i = 0; i < 8; i++) Serial.print((u3a >> i) & 1);  // 41-48
-  for (int i = 0; i < 8; i++) Serial.print((u4b >> i) & 1);  // 49-56
-  for (int i = 0; i < 4; i++) Serial.print((u4a >> i) & 1);  // 57-60
+  // Test 4: Pattern 0x55 (01010101)
+  Serial.println("\n=== PATTERN 0x55 ===");
+  U5.write_port_b(0x55); U5.write_port_a(0x55);
+  U6.write_port_b(0x55); U6.write_port_a(0x55);
+  U7.write_port_b(0x55); U7.write_port_a(0x55);
+  U8.write_port_b(0x55);
+  delay(10);
+  Serial.printf("U1: B=%02X A=%02X (expect 55)\n", U1.read_port_b(), U1.read_port_a());
+  Serial.printf("U2: B=%02X A=%02X (expect 55)\n", U2.read_port_b(), U2.read_port_a());
+  Serial.printf("U3: B=%02X A=%02X (expect 55)\n", U3.read_port_b(), U3.read_port_a());
+  Serial.printf("U4: B=%02X A=%02X (expect 55)\n", U4.read_port_b(), U4.read_port_a());
 
-  // Print USB pins 61-79
-  Serial.print("|");
-  for (int i = 4; i < 8; i++) Serial.print((u8a >> i) & 1);  // 61-64
-  for (int i = 0; i < 8; i++) Serial.print((u9b >> i) & 1);  // 65-72
-  for (int i = 0; i < 7; i++) Serial.print((u9a >> i) & 1);  // 73-79
-
-  Serial.println("]");
+  delay(5000);
 }
